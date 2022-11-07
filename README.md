@@ -35,3 +35,13 @@ mvn gatling:test -D"gatling.simulationClass=CurrencyConverterAPITest"
 
 Requirements for running :
 A docker should be available
+
+Tool Selection: For performance test of the given API, I have selected Gatling as it is powerful open-source performance testing tool considering following criteria:
+1.	Gatling can create millions of virtual users with less CPU, memory usage. Gatlin is distributed message driven application instead of thread like other tools (JMeter) which allows it to create 50 million of user at a time where thread-based performance testing tools have a limitation.
+2.	Script based tool that makes it easy to integrate with version control system, CI/CD pipeline.
+3.	Scripts can be written in Java, Scala or Kotlin.
+4.	Colorful report.
+Performance test Scenario: As a performance test scenario, I want to see how application behaves when there are many users accessing the API at a time. I will observe:
+1.	The response time.
+2.	 And the stability which means whether the API is stable when certain user simultaneously accessing it.
+
