@@ -41,6 +41,7 @@ Tool Selection: For performance test of the given API, I have selected Gatling a
 2.	Script based tool that makes it easy to integrate with version control system, CI/CD pipeline.
 3.	Scripts can be written in Java, Scala or Kotlin.
 4.	Colorful report.
+
 Performance test Scenario: As a performance test scenario, I want to see how application behaves when there are many users accessing the API at a time. I will observe:
 1.	The response time.
 2.	 And the stability which means whether the API is stable when certain user simultaneously accessing it.
