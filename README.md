@@ -16,7 +16,7 @@ From project root directory:
 1. mvn clean test (it will clean the target folder if there is already any and then download all the dependancys)
 2. mvn gatling:test -D"gatling.simulationClass=CurrencyConverterAPITest"  (it will run our performance test simulation)
 
-You will get the test report under: ..\cybus-performance-test\target\gatling\currencyconverterapitest-20221107041011038\index.html
+You will get the test report under: ..\cybus-performance-test\target\gatling\..\index.html
 
 Requirements for running from local machine:
 Apache Maven 3.8.6
