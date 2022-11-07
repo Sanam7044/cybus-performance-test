@@ -1,0 +1,4 @@
+from, to, amount, format
+EUR, USD, 1, json
+USD, EUR, 1.5, xml
+ , , 123, json
